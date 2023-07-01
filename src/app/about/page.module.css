@@ -1,0 +1,39 @@
+.imgContainer {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.img {
+    object-fit: cover;
+    /* to give B/w backdrop */
+    filter: grayscale(100%);
+}
+
+.imgText {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #53c28b;
+    padding: 5px;
+    color: white;
+}
+
+.contentContainer {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.desc {
+    font-weight: 300;
+    /* to fit in a neat para */
+    text-align: justify;
+}
